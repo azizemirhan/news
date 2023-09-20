@@ -70,8 +70,8 @@ class ProfileController extends Controller
 
         return redirect()->back();
     }
-    public function passwordUpdate(AdminPasswordUpdateRequest $request, string $id) {
-        
+    public function passwordUpdate(AdminPasswordUpdateRequest $request, string $id) { // Admin Şifre Güncelleme
+        die();
     }
     /**
      * Remove the specified resource from storage.

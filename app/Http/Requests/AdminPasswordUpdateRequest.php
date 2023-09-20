@@ -23,7 +23,7 @@ class AdminPasswordUpdateRequest extends FormRequest
     {
         return [
             'current_password' => ['required', 'max:255', 'current_password'],
-            'password' => ['required', 'confirmed', 'max:8'],
+            'password' => ['required', 'confirmed', 'max:8'],   
         ];
     }
 }
